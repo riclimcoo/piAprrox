@@ -1,0 +1,49 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 5px 10px;
+    background: whitesmoke;
+    display: flex;
+    justify-content: center;
+}
+
+#canvas{
+    border: 1px solid gray;
+    margin: 2px;
+    width: 100%;
+    max-width: 18em;
+}
+
+#txtbox{
+    border-width: 1px;
+    border-style: solid;
+    padding: 2ch;
+    /* height: 100%; */
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+}
+
+.box{
+    margin: 10% 5%;
+    padding-bottom: 1em;
+    background: white;
+    height: 70%;
+    width: 80%;
+    box-shadow: 1px 1px 1px 1px;
+}
+/* div{
+    gap: 1em;
+} */
+
+#piapprox{
+    white-space:pre-wrap;
+}
+
+h1{
+    text-align: center;
+}
